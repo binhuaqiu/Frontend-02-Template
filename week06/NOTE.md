@@ -1,1 +1,1 @@
-学习笔记
+first-line设置float,文本高度会发生变化，这时需要重新布局，但布局之后就会影响first-line选中的文本，之后就会循环这个过程，性能消耗大。而first-letter选中的是一行的首字母，不会影响布局，所以first-letter可以设置float属性。
